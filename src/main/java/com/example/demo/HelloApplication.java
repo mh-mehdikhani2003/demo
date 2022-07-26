@@ -12,7 +12,6 @@ public class HelloApplication extends Application {
     static Stage  MainStage;
     static int Height = 500;
     static int Width = 800;
-    static String DarkTheme;
     @Override
     public void start(Stage stage) throws IOException {
         MainStage = stage;

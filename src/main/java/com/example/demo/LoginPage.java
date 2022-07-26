@@ -5,19 +5,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-public class RegisterPage {
-    @FXML
-    private TextField IDText;
+public class LoginPage {
     @FXML
     private PasswordField PassText;
     @FXML
     private TextField UserNameText;
     @FXML
-    private TextField businessText;
-    @FXML
     private Button ReturnButton;
     @FXML
-    private Button RegisterButton;
-
+    private Button LoginButton;
 
 }
