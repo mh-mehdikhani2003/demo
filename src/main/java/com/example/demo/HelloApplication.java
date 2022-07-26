@@ -12,7 +12,7 @@ public class HelloApplication extends Application {
     static Stage  MainStage;
     static int Height = 500;
     static int Width = 800;
-
+    static String DarkTheme;
     @Override
     public void start(Stage stage) throws IOException {
         MainStage = stage;
@@ -20,9 +20,11 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), Width,Height );
         stage.setTitle("OopGram");
         stage.setScene(scene);
-        Image image = new Image("C:\\Users\\mhmeh\\Desktop\\oop project\\demo\\src\\main\\resources\\icons8-instagram-40.png");
-        stage.getIcons().add(image);
 
+        Image image = new Image("C:\\Users\\mhmeh\\Desktop\\oop project\\demo\\src\\main" +
+                "\\resources\\icons8-instagram-40.png");
+
+        stage.getIcons().add(image);
         stage.setResizable(false);
         stage.show();
     }
